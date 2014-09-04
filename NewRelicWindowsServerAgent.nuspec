@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>NewRelicWindowsServerAgent</id>
+        <version>3.2.6.0</version>
+        <authors>New Relic Inc,</authors>
+        <owners>Chris Hunt</owners>
+        <projectUrl>https://newrelic.com/</projectUrl>
+        <iconUrl>http://newrelic.com/assets/newrelic/source/NewRelic-logo-square.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>The New Relic Servers product provides an easy, interactive installation utility to handle most of the setup automatically for Windows server monitoring.</description>
+        <summary />
+        <language>en-US</language>
+        <tags>admin</tags>
+        <dependencies>
+            <dependency id="DotNet4.5" />
+        </dependencies>
+    </metadata>
+</package>
