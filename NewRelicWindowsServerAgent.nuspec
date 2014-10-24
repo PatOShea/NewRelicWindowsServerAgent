@@ -3,17 +3,20 @@
     <metadata>
         <id>NewRelicWindowsServerAgent</id>
         <version>3.2.6.0</version>
-        <authors>New Relic Inc,</authors>
-        <owners>Chris Hunt</owners>
-        <projectUrl>https://newrelic.com/</projectUrl>
+        <authors>New Relic, Inc</authors>
+        <owners>Chris Hunt,Pat O'Shea</owners>
+        <projectUrl>https://docs.newrelic.com/docs/servers/new-relic-servers-windows/installation-configuration/installing-new-relic-servers-windows/</projectUrl>
         <iconUrl>http://newrelic.com/assets/newrelic/source/NewRelic-logo-square.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>The New Relic Servers product provides an easy, interactive installation utility to handle most of the setup automatically for Windows server monitoring.</description>
         <summary />
         <language>en-US</language>
-        <tags>admin</tags>
+        <tags>new relic server agent</tags>
         <dependencies>
-            <dependency id="DotNet4.5" />
+            <dependency id="DotNet4.0" />
         </dependencies>
     </metadata>
+    <files>
+        <file src="tools\**" target="tools" />
+    </files>
 </package>
